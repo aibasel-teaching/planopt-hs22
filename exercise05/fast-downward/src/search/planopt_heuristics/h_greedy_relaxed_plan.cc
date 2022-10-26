@@ -15,6 +15,7 @@ int GreedyRelaxedPlanHeuristic::compute_heuristic(const State &ancestor_state) {
     State state = convert_ancestor_state(ancestor_state);
     
     // add your implementation of exercise 5.4 a) here
+    return 1;
 }
 
 static shared_ptr<Heuristic> _parse(OptionParser &parser) {
